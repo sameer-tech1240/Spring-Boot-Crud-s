@@ -11,6 +11,7 @@ import com.app.entity.Collage;
 
 @RestController
 @RequestMapping("/collage")
+
 public class CollageController {
 
 	@GetMapping("/{collageId}")
